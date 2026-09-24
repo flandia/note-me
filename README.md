@@ -90,6 +90,18 @@ Import this package, and write
 
 ![github-admonition](example.svg)
 
+### Custom Titles
+
+Use `with` to customize a preset's title, for example to localize it:
+
+```typ
+#let warning = warning.with(title: "Varning")
+
+#warning[
+  Highlights information that users should take into account, even when skimming.
+]
+```
+
 Further Reading: 
 
 - https://github.com/orgs/community/discussions/16925
